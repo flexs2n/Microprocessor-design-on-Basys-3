@@ -40,3 +40,5 @@ graph TD
     Microprocessor -->|8-bit Bus| IR_Transmitter
     Mouse -->|Interrupt| Microprocessor
     Timer -->|Interrupt| Microprocessor
+
+
