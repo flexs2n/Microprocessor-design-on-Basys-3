@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/CLK_MOUSE" type="logic">
+      <obj_property name="ElementShortName">CLK_MOUSE</obj_property>
+      <obj_property name="ObjectShortName">CLK_MOUSE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/DATA_MOUSE" type="logic">
+      <obj_property name="ElementShortName">DATA_MOUSE</obj_property>
+      <obj_property name="ObjectShortName">DATA_MOUSE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/CLK_MOUSE_IN" type="logic">
+      <obj_property name="ElementShortName">CLK_MOUSE_IN</obj_property>
+      <obj_property name="ObjectShortName">CLK_MOUSE_IN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/CLK_MOUSE_OUT" type="logic">
+      <obj_property name="ElementShortName">CLK_MOUSE_OUT</obj_property>
+      <obj_property name="ObjectShortName">CLK_MOUSE_OUT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/DATA_MOUSE_IN" type="logic">
+      <obj_property name="ElementShortName">DATA_MOUSE_IN</obj_property>
+      <obj_property name="ObjectShortName">DATA_MOUSE_IN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/DATA_MOUSE_OUT" type="logic">
+      <obj_property name="ElementShortName">DATA_MOUSE_OUT</obj_property>
+      <obj_property name="ObjectShortName">DATA_MOUSE_OUT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/CLK_ENABLE" type="logic">
+      <obj_property name="ElementShortName">CLK_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">CLK_ENABLE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/DATA_ENABLE" type="logic">
+      <obj_property name="ElementShortName">DATA_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">DATA_ENABLE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/LED_OUT" type="array">
+      <obj_property name="ElementShortName">LED_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED_OUT[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/HEX_OUT" type="array">
+      <obj_property name="ElementShortName">HEX_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">HEX_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/SEG_SELECT" type="array">
+      <obj_property name="ElementShortName">SEG_SELECT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SEG_SELECT[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/HS" type="logic">
+      <obj_property name="ElementShortName">HS</obj_property>
+      <obj_property name="ObjectShortName">HS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/VS" type="logic">
+      <obj_property name="ElementShortName">VS</obj_property>
+      <obj_property name="ObjectShortName">VS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TOP_tb/COLOUR_OUT" type="array">
+      <obj_property name="ElementShortName">COLOUR_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">COLOUR_OUT[7:0]</obj_property>
+   </wvobject>
+</wave_config>

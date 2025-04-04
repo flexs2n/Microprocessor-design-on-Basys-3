@@ -1,0 +1,28 @@
+// MOUSE INITIALIZATION AND DATA HANDLING
+@0x00   0x00 // Read mouse status byte from memory into register A
+@0x01   0xA0 // Address of the mouse status byte in memory
+@0x02   0x02 // Store mouse status byte to LED memory (for debugging/status display)
+@0x03   0xC0 // Address of the LED memory
+
+@0x04   0x00 // Read Mouse X byte from memory into register A
+@0x05   0xA1 // Address of the Mouse X byte in memory
+@0x06   0x01 // Read Mouse Y byte from memory into register B
+@0x07   0xA2 // Address of the Mouse Y byte in memory
+
+@0x08   0x02 // Save Mouse X byte to RAM (for later use)
+@0x09   0x14 // RAM address for storing Mouse X byte
+@0x0A   0x03 // Save Mouse Y byte to RAM (for later use)
+@0x0B   0x15 // RAM address for storing Mouse Y byte
+
+@0x0C   0x02 // Write Mouse X byte to 7-segment display memory (base address)
+@0x0D   0xD0 // 7-segment display base address for X byte
+@0x0E   0x03 // Write Mouse Y byte to 7-segment display memory (high address)
+@0x0F   0xD1 // 7-segment display high address for Y byte
+
+@0x10   0x02 // (Unused or placeholder instruction)
+@0x11   0x16 // (Unused or placeholder address)
+@0x12   0x08 // Go to IDLE state and wait for interrupts
+
+// INTERRUPT HANDLING FOR MOUSE
+@0xFF   0x00 // Mouse interrupt handler address (jump here on mouse interrupt)
+

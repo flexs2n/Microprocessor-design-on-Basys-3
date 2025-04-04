@@ -1,0 +1,26 @@
+@0x00   0x00 // Load memory value into register A
+@0x01   0xA0 // Set regA to value at memory address @0xA0 (e.g., input data)
+@0x02   0x00 // Load memory value into register A
+@0x03   0x00 // Set regA to value at memory address @0x00 (e.g., zero or counter)
+@0x04   0x77 // Perform operation 0x77 (undefined in context, possibly custom)
+@0x05   0x01 // Load memory value into register B
+@0x06   0x00 // Set regB to value at memory address @0x00 (e.g., zero)
+@0x07   0x00 // Load memory value into register A
+@0x08   0x00 // Set regA to value at memory address @0x00
+@0x09   0xFF // Perform operation 0xFF (undefined, possibly jump or flag set)
+@0x10   0x35 // Data byte: 0x35 (purpose unclear without context)
+@0x11   0x6B // Data byte: 0x6B (possibly part of a sequence or address)
+@0x12   0x27 // Data byte: 0x27 (could be an instruction or value)
+@0x13   0x4F // Data byte: 0x4F (context-specific value)
+@0x14   0x50 // Data byte: 0x50 (part of data or instruction set)
+@0x15   0x3C // Data byte: 0x3C (possibly a constant or address offset)
+@0x16   0x00 // Load memory value into register A (start of command table)
+@0x17   0x06 // Command: Left-backward movement [binary 0110]
+@0x18   0x0A // Command: Right-backward movement [binary 1010]
+@0x19   0x02 // Command: Backward-only movement [binary 0010]
+@0x20   0x05 // Command: Left-forward movement [binary 0101]
+@0x21   0x09 // Command: Right-forward movement [binary 1001]
+@0x22   0x01 // Command: Forward-only movement [binary 0001]
+@0x23   0x04 // Command: Left-only turn [binary 0100]
+@0x24   0x08 // Command: Right-only turn [binary 1000]
+@0x25   0x00 // Command: Brake/stop [binary 0000]

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Apr 01 09:35:38 2025
+# Process ID: 19444
+# Log file: C:/Digital System design 3/Mouse Driver/Mouse Driver/vivado.log
+# Journal file: C:/Digital System design 3/Mouse Driver/Mouse Driver\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Digital System design 3/Mouse Driver/Mouse Driver/Mouse Driver.xpr}
+launch_simulation
+source Top_TB.tcl
+close_sim
