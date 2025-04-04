@@ -30,6 +30,9 @@ This project demonstrates a complete embedded system design on the **Xilinx Arti
 | **IR Transmitter** | <ul><li>36-40KHz carrier frequency generation</li><li>Multi-car support (Red/Blue/Green/Yellow)</li><li>Pulse-code modulation for directional control</li></ul> |
 
 ### System Architecture
+
+![VGA Interface](https://github.com/flexs2n/Digital-System-Laboratory/blob/main/VGA%20interface.png)
+
 ```mermaid
 graph TD
     Microprocessor -->|8-bit Bus| Mouse
