@@ -1,6 +1,6 @@
 # FPGA-Based Remote Car Control System with Microprocessor and Peripherals
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache-green.svg)](LICENSE)
 [![University of Edinburgh](https://img.shields.io/badge/University-Edinburgh-blue.svg)](https://www.ed.ac.uk/)
 
 A hardware-software co-design project implementing an FPGA-based embedded system for remote toy car control using a custom microprocessor, PS/2 mouse interface, VGA display driver, and optional IR transmitter. Developed at the University of Edinburgh.
